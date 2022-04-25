@@ -1,2 +1,1 @@
-# .github
-medienmonster GmbH
+# medienmonster GmbH
