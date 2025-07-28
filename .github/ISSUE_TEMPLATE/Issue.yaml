@@ -1,0 +1,25 @@
+name: Issue
+description: Use this issue template to describe an implementation.
+labels: []
+# Add the project board here:
+projects: ["medienmonster/81"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: 🎯 Description
+      description: |
+        Clearly describe the purpose of this issue. 
+        Whether it's a new feature, an improvement or something unexpected, provide as much context as necessary.
+      placeholder: e.g. Add a dark mode toggle for the app to improve usability in low-light environments.
+  - type: textarea
+    id: tasks
+    attributes:
+      label: ✅ Tasks
+      description: Use this section to outline the steps required to resolve or implement this issue. Create a clear plan of action.
+      placeholder: |
+        e.g. 
+        -[ ] Research dark mode implementation best practices
+        -[ ] Create settings section for dark mode switch
+        -[ ] Implement dark mode styles
+        -[ ] Test on various devices and settings

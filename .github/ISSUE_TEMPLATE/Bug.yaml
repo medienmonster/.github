@@ -1,0 +1,33 @@
+name: Bug
+description: Use this issue template to report a bug.
+type: "bug"
+# Add the project board here:
+projects: ["medienmonster/81"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: 🎯 Description
+      description: Clearly describe the purpose of this issue. Whether it's a new feature, improvement, or something unexpected, provide as much context as possible.
+      placeholder: e.g., "Add a dark mode toggle for the app to improve usability in low-light environments."
+  - type: textarea
+    id: steps
+    attributes:
+      label: 🔄 Steps to reproduce
+      description: Use this section to outline the steps required to reproduce the bug.
+      placeholder: |
+        e.g.
+        1. Select Home in the navigation
+        2. See crash
+  - type: textarea
+    id: expectedBehavior
+    attributes:
+      label: ➡️ Expected behavior
+      placeholder: e.g. Home is displayed.
+  - type: input
+    id: version
+    attributes:
+      label: 📦 Version/Browser
+      placeholder: e.g., "1.0.4" or "Firefox 1.0.4"
+    validations:
+      required: true

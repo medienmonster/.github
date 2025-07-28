@@ -1,0 +1,38 @@
+name: Quality Assurance
+description: Use this issue template to initiate QA/Review.
+labels: []
+assignees: ["mmbuscher"]
+# Add the project board here:
+projects: ["medienmonster/81"]
+body:
+  - type: dropdown
+    id: package
+    attributes:
+      label: Review / QA
+      description: Which QA Package?
+      options:
+        - Full QA
+        - Regression Tests
+        - New Review
+        - Upgrade Review
+        - Check-column Review
+      default: 2
+    validations:
+      required: true
+  - type: textarea
+    id: list
+    attributes:
+      label: List of features to be tested
+      placeholder: |
+        e.g.
+        -[ ] Select Home in the navigation
+        -[ ] See crash
+  - type: input
+    id: version
+    attributes:
+      label: Version to be tested
+      placeholder: URL / Version Number / ...
+  - type: textarea
+    id: instructions
+    attributes:
+      label: Additional instructions
