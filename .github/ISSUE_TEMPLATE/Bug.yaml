@@ -1,5 +1,5 @@
 name: Bug
-description: Use this issue template to report a bug.
+description: Use this issue template to report bugs.
 type: "bug"
 # Add the project board here:
 projects: ["medienmonster/81"]
